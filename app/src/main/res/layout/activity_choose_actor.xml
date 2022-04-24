@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capacitaci_n_en_inform_tica_capacitaci_n_educaci_n_matr_cula_removebg_preview"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChooseActor">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        app:srcCompat="@drawable/whatsapp_image_2021_09_24_at_10_14_59_pm_removebg_preview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/cuslog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:text="Customer Login"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/orange"
+                app:cornerRadius="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/adminlog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:text="Admin Login"
+                android:textColor="@color/white"
+                app:backgroundTint="@android:color/holo_red_light"
+                app:cornerRadius="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
